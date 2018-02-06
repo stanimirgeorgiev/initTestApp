@@ -1,0 +1,34 @@
+{
+  "name": "inittestapp",
+  "version": "0.0.1",
+  "description": "This is a POC test app where most of the time the code will not compile.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack --progress --color",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stanimirgeorgiev/initTestApp.git"
+  },
+  "keywords": [
+    "POC",
+    "test",
+    "app"
+  ],
+  "author": "Stanimir Georgiev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stanimirgeorgiev/initTestApp/issues"
+  },
+  "homepage": "https://github.com/stanimirgeorgiev/initTestApp#readme",
+  "dependencies": {
+    "babel": "latest",
+    "eslint": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-redux": "latest",
+    "redux": "latest",
+    "webpack": "latest"
+  }
+}
